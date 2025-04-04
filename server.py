@@ -2,7 +2,7 @@ import base64
 import asyncio
 import json
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
-from Cryptodome.Cipher import AES
+from pycryptodome.Cipher import AES
 
 app = FastAPI()
 
